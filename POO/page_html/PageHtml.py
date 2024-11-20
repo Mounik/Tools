@@ -2,7 +2,6 @@ import Document # Je dois importer le module Document
 
 ## La classe PageHtml avec Document.Document (module.classe)
 ## comme classe parente
-
 class PageHtml(Document.Document):
     def __init__(self, titre="Page HTML"):
         super().__init__(titre)  ## __init__ de la classe parente
